@@ -7,5 +7,6 @@ resource "aws_instance" "my_ec2" {
   instance_type = var.instance_type
   tags = {
     Name = "MyEC2Instance"
+    Cost_Center = "Prod"
   }
 }
