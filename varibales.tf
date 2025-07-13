@@ -4,7 +4,7 @@ variable "region" {
 }
 
 variable "ami_id" {
-  description = "AMI ID to use"
+ # description = "AMI ID to use"
   type        = string
 }
 
